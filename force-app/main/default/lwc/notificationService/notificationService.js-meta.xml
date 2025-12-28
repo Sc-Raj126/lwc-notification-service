@@ -1,0 +1,11 @@
+Add notificationService XML metadata<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>Toast Notification Service - Display success, error, warning, and info messages</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Notification Service</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+</LightningComponentBundle>
