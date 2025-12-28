@@ -1,0 +1,38 @@
+.notification-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.toast-success,
+.toast-error,
+.toast-warning,
+.toast-info {
+    padding: 16px 24px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+Add notificationService CSS    min-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toast-success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.toast-error {
+    background-color: #f44336;
+    color: white;
+}
+
+.toast-warning {
+    background-color: #ff9800;
+    color: white;
+}
+
+.toast-info {
+    background-color: #2196f3;
+    color: white;
+}
